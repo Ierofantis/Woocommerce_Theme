@@ -1,0 +1,91 @@
+/*
+Theme Name: Eat Well
+Theme URI: #
+Author: Admin
+*/
+
+/* Support a widely-adopted but non-standard selector for text selection styles
+ * to achieve a better experience. See http://core.trac.wordpress.org/ticket/25898.
+ */
+
+
+
+.alignleft {
+    float: left;
+    height: auto;
+    padding: 7px;
+    width: inherit;
+}
+
+.alignnone {
+    float: left;
+    height: auto;
+    padding: 7px;
+    width: inherit;
+}
+.alignright {
+    float: right;
+    height: auto;
+    padding: 7px;
+    width: inherit;
+}
+
+.aligncenter {
+    display: block;
+    float: none;
+    height: inherit;
+    margin: 0 auto;
+    width: inherit;
+}
+
+.size-full {
+    height: inherit;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.woocommerce-breadcrumb, .page-title, .woocommerce-result-count, .woocommerce-ordering, .woocommerce-tabs {
+    display: none !important;
+}
+
+.breadc .woocommerce-breadcrumb {
+    display: block !important;
+}
+
+.woocommerce img, .woocommerce-page img {
+    height: auto !important;
+    max-height: 70px;
+    max-width: 70px;
+    padding: 0 15px 0 0;
+    width: auto;
+}
+
+.product_meta {
+    display: none !important;
+}
+
+.variations_form.cart {
+    display: inline-table !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+
+
+.account a {
+    color: #628476;
+    padding: 6px;
+}
+
+.account li {
+    float: left;
+}
+
+.account {
+    float: left;
+    list-style: outside none none;
+}
+.navbar-right li:last-child { display:none;}
+.menu-footer-menu-container li:last-child { display:none;}
